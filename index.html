@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AUTEV Altusried – Netzwerk, WLAN, Telefonanlage, Glasfaser & Smart Home | Kempten, Allgäu</title>
+<meta name="description" content="IT- und Technik-Service aus Altusried bei Kempten: WLAN & Netzwerke, Telefonanlagen, DSL & Glasfaser, PC-Reparatur, Smart Home mit Home Assistant und Automatisierung. AVM Premium Partner. Jetzt anrufen: 0173 998 71 27.">
+<link rel="canonical" href="https://christophvetter.de/">
+<meta name="robots" content="index,follow">
+<link rel="icon" type="image/png" href="autev-logo.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="AUTEV">
+<meta property="og:title" content="AUTEV – Netzwerk, Telefonie, Internet & Smart Home im Allgäu">
+<meta property="og:description" content="Technik-Service aus Altusried: WLAN, Telefonanlagen, Glasfaser, PC-Reparatur, Smart Home. AVM Premium Partner.">
+<meta property="og:url" content="https://christophvetter.de/">
+<meta property="og:image" content="https://christophvetter.de/autev-logo.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "ProfessionalService"],
+  "name": "AUTEV – Automatisierung, EDV, Elektrotechnik",
+  "alternateName": "AUTEV Christoph Vetter",
+  "description": "IT- und Technik-Service im Allgäu: Netzwerke und WLAN, Telefonanlagen, DSL und Glasfaser, PC-Reparatur und neue PCs, Smart Home mit Home Assistant und Matter over Thread, Automatisierung mit Beckhoff. AVM Premium Partner.",
+  "url": "https://christophvetter.de/",
+  "logo": "https://christophvetter.de/autev-logo.png",
+  "image": "https://christophvetter.de/autev-logo.png",
+  "telephone": "+49 173 9987127",
+  "faxNumber": "+49 8373 9879135",
+  "email": "autev@christophvetter.de",
+  "founder": {"@type": "Person", "name": "Christoph Vetter"},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Unterräthen 1",
+    "postalCode": "87452",
+    "addressLocality": "Altusried",
+    "addressRegion": "Bayern",
+    "addressCountry": "DE"
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Altusried"},
+    {"@type": "City", "name": "Kempten (Allgäu)"},
+    {"@type": "City", "name": "Dietmannsried"},
+    {"@type": "City", "name": "Wiggensbach"},
+    {"@type": "City", "name": "Buchenberg"},
+    {"@type": "City", "name": "Bad Grönenbach"},
+    {"@type": "City", "name": "Legau"},
+    {"@type": "AdministrativeArea", "name": "Oberallgäu"},
+    {"@type": "AdministrativeArea", "name": "Unterallgäu"}
+  ],
+  "knowsAbout": ["WLAN", "Netzwerktechnik", "Telefonanlagen", "FRITZ!Box", "Glasfaser", "DSL", "PC-Reparatur", "Home Assistant", "Matter", "Thread", "Beckhoff", "Automatisierungstechnik", "Elektrotechnik"]
+}
+</script>
+<style>
+:root{
+  --navy:#0a4aa3; --navy-2:#0d5bc0; --ink:#1f2933; --muted:#62707e;
+  --line:#e2e7ee; --bg:#f4f7fb; --white:#fff; --silver:#7a7f86;
+  --blue:#0d55b5; --blue-2:#4a90dd; --sky:#8cc2f7; --accent:#e8f1fc;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+
+/* Header */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,box-shadow .3s}
+header{background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid transparent}
+header.solid{box-shadow:0 6px 24px -12px rgba(13,85,181,.25);border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{height:54px;width:auto;display:block}
+.brand .mark{font-weight:800;font-size:26px;letter-spacing:.04em;background:linear-gradient(180deg,#9cc4ff 0%,#3a7be0 55%,#2457b3 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand .sub{font-size:11px;line-height:1.25;color:#a9b8cc;letter-spacing:.06em;text-transform:uppercase;border-left:1px solid rgba(255,255,255,.18);padding-left:12px}
+.links{display:flex;gap:30px;align-items:center}
+.links a{color:var(--ink);font-size:15px;font-weight:500}
+.links a:hover{color:var(--blue)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-weight:600;font-size:15px;transition:transform .15s,background .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:linear-gradient(180deg,var(--blue-2),var(--blue));color:#fff;box-shadow:0 8px 20px -10px rgba(13,85,181,.7)}
+.btn-primary:hover{background:linear-gradient(180deg,#3f86d6,#0a4aa3)}
+.btn-ghost{border:1px solid #c9d6e6;color:var(--blue);background:#fff}
+.btn-ghost:hover{background:var(--accent)}
+.links .btn{padding:10px 18px;color:#fff}
+.menu-btn{display:none;background:none;border:0;color:var(--blue);font-size:26px;cursor:pointer}
+
+/* Hero */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;background:linear-gradient(180deg,#fff 0%,#f1f6fd 100%);color:var(--ink);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(900px 520px at 88% 25%,rgba(140,194,247,.45),transparent 60%),
+  radial-gradient(600px 420px at 0% 100%,rgba(74,144,221,.12),transparent 60%)}
+.hero>.wrap{width:100%}
+.hero svg.net{position:absolute;inset:0;width:100%;height:100%;opacity:.9}
+.hero-inner{position:relative;padding:140px 0 100px;max-width:600px}
+/* Smart Home */
+.sh{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.tech{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.tile{border:1px solid var(--line);border-radius:14px;padding:22px;background:#fff;transition:transform .2s,box-shadow .2s}
+.tile:hover{transform:translateY(-3px);box-shadow:0 18px 40px -20px rgba(13,85,181,.35)}
+.tile b{display:block;font-size:17px;color:var(--blue);margin-bottom:6px}
+.tile span{color:var(--muted);font-size:14.5px}
+.tile.wide{grid-column:1/-1;background:linear-gradient(135deg,#0a4aa3,#2f7bd2);border:0;color:#fff}
+.tile.wide b{color:#fff}.tile.wide span{color:#dbe8f8}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin-bottom:22px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--blue-2)}
+h1{font-size:clamp(34px,4.6vw,56px);line-height:1.08;font-weight:750;letter-spacing:-.02em}
+h1{color:#2b3138}
+h1 span{background:linear-gradient(180deg,#4a90dd 0%,#0d55b5 55%,#6aa9ec 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{margin-top:24px;font-size:clamp(17px,1.6vw,20px);color:var(--muted);max-width:620px}
+.cta{margin-top:38px;display:flex;gap:14px;flex-wrap:wrap}
+.trust{margin-top:56px;display:flex;gap:34px;flex-wrap:wrap;color:var(--silver);font-size:14px}
+.trust b{display:block;color:var(--blue);font-size:22px;font-weight:700}
+.hero-logo{position:absolute;right:3%;top:50%;transform:translateY(-40%);width:min(29vw,430px);filter:drop-shadow(0 20px 40px rgba(13,85,181,.18))}
+@media (max-width:1240px){.hero-logo{display:none}}
+
+/* Sections */
+section{padding:110px 0}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+h2{font-size:clamp(28px,3.4vw,42px);line-height:1.15;letter-spacing:-.015em;margin:12px 0 16px;font-weight:750}
+.intro{color:var(--muted);font-size:18px;max-width:640px}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:32px 28px;transition:transform .2s,box-shadow .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -18px rgba(16,40,80,.25);border-color:#cfdcee}
+.icon{width:52px;height:52px;border-radius:12px;background:var(--accent);display:grid;place-items:center;margin-bottom:22px}
+.icon svg{width:26px;height:26px;stroke:var(--blue);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:20px;margin-bottom:10px}
+.card p{color:var(--muted);font-size:15.5px}
+.card ul{margin-top:14px;list-style:none;color:var(--ink);font-size:14.5px}
+.card li{padding:5px 0 5px 22px;position:relative}
+.card li::before{content:"";position:absolute;left:0;top:13px;width:10px;height:2px;background:var(--blue)}
+
+/* AVM */
+.partner{background:var(--bg)}
+.partner-box{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.badge{background:#fff;border:1px solid var(--line);border-radius:18px;padding:48px;color:var(--ink);position:relative;overflow:hidden;box-shadow:0 30px 60px -30px rgba(13,85,181,.35)}
+.badge::after{content:"";position:absolute;right:-90px;top:-90px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(140,194,247,.35),transparent 70%)}
+.badge .avm-logo{position:relative;z-index:1}
+.badge .avm-logo img{width:220px;max-width:100%;height:auto;display:block}
+.badge h3{font-size:26px;margin:28px 0 10px}
+.badge p{color:var(--muted)}
+.checks{list-style:none;margin-top:28px;display:grid;gap:14px}
+.checks li{display:flex;gap:14px;align-items:flex-start;font-size:16px}
+.checks svg{flex:0 0 22px;width:22px;height:22px;margin-top:2px;stroke:var(--blue);fill:none;stroke-width:2.2}
+
+/* Process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:56px;counter-reset:s}
+.step{border-top:2px solid var(--line);padding-top:22px;position:relative}
+.step::before{counter-increment:s;content:"0" counter(s);font-weight:800;color:var(--blue);font-size:14px;letter-spacing:.1em}
+.step h4{font-size:18px;margin:8px 0 6px}
+.step p{color:var(--muted);font-size:15px}
+
+/* Contact */
+.contact{background:linear-gradient(160deg,#0a4aa3 0%,#0d5bc0 55%,#2f7bd2 100%);color:#fff;position:relative;overflow:hidden}
+.contact::before{content:"";position:absolute;inset:0;background:radial-gradient(800px 400px at 90% 0%,rgba(140,194,247,.35),transparent 60%)}
+.contact .wrap{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.contact .intro{color:#dbe8f8}
+.contact .kicker{color:#cfe3fb}
+.cinfo{display:grid;gap:14px}
+.citem{display:flex;gap:16px;align-items:center;padding:20px 22px;border:1px solid rgba(255,255,255,.22);border-radius:12px;background:rgba(255,255,255,.08);transition:background .2s,border-color .2s}
+a.citem:hover{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.25)}
+.citem svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:1.8;flex:0 0 24px}
+.citem small{display:block;color:#cfe3fb;font-size:13px}
+.citem span{font-size:17px;font-weight:600}
+
+/* Footer + legal */
+footer{background:#2b3138;color:#b5bcc4;padding:34px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a:hover{color:#fff}
+.legal{padding:90px 0;background:#fff;border-top:1px solid var(--line)}
+.legal h2{font-size:28px}
+.legal h3{font-size:17px;margin:26px 0 6px}
+.legal p{color:var(--muted);max-width:760px;font-size:15px}
+.ph{background:#fff4cc;color:#6b5200;padding:0 4px;border-radius:3px}
+
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+@media (max-width:960px){
+  .grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .partner-box,.contact .wrap,.sh{grid-template-columns:minmax(0,1fr);gap:40px}
+}
+@media (max-width:720px){
+  .wrap{padding:0 18px}
+  .links{display:none;position:absolute;top:76px;left:0;right:0;flex-direction:column;gap:0;background:#fff;border-bottom:1px solid var(--line);padding:10px 18px 20px}
+  .links.open{display:flex}
+  .links a{padding:12px 0;width:100%}
+  .menu-btn{display:block}
+  .brand img{height:44px}
+  .sh{grid-template-columns:minmax(0,1fr) !important}
+  .tech{grid-template-columns:minmax(0,1fr)}
+  .grid,.steps{grid-template-columns:1fr}
+  section{padding:80px 0}
+  .badge{padding:32px}
+  .trust{gap:24px}
+}
+</style>
+</head>
+<body>
+
+<header id="top">
+  <div class="wrap nav">
+    <a href="#" class="brand" aria-label="AUTEV Startseite">
+      <img src="autev-logo.png" alt="AUTEV – Automatisierung, EDV, Elektrotechnik – Vetter">
+    </a>
+    <button class="menu-btn" aria-label="Menü" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+    <nav class="links">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#smarthome">Smart Home</a>
+      <a href="#avm">AVM Partner</a>
+      <a href="#ablauf">Ablauf</a>
+      <a href="#kontakt" class="btn btn-primary">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <svg class="net" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g stroke="#4a90dd" stroke-opacity=".28" stroke-width="1" fill="none">
+      <path d="M700 120 L860 240 L1040 160 L1120 330 L940 420 L860 240"/>
+      <path d="M940 420 L1060 560 L880 650 L760 520 L940 420"/>
+      <path d="M760 520 L620 380 L700 120"/>
+      <path d="M620 380 L860 240"/>
+      <path d="M1060 560 L1180 470 L1120 330"/>
+      <path d="M880 650 L980 770"/>
+    </g>
+    <g fill="#4a90dd" fill-opacity=".55">
+      <circle cx="700" cy="120" r="4"/><circle cx="860" cy="240" r="6"/><circle cx="1040" cy="160" r="4"/>
+      <circle cx="1120" cy="330" r="5"/><circle cx="940" cy="420" r="7"/><circle cx="1060" cy="560" r="4"/>
+      <circle cx="880" cy="650" r="5"/><circle cx="760" cy="520" r="4"/><circle cx="620" cy="380" r="3"/>
+      <circle cx="1180" cy="470" r="3"/><circle cx="980" cy="770" r="3"/>
+    </g>
+  </svg>
+  <img class="hero-logo" src="autev-logo.png" alt="" aria-hidden="true">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div class="eyebrow">Technik-Service im Allgäu</div>
+      <h1>Netzwerk, Telefonie, Internet und Smart Home, <span>die einfach funktionieren.</span></h1>
+      <p class="lead">AUTEV plant, installiert und betreut Ihre Technik: vom WLAN über die Telefonanlage bis zum Glasfaseranschluss und zum Smart Home. Persönlich, schnell vor Ort und mit einem festen Ansprechpartner.</p>
+      <div class="cta">
+        <a href="#kontakt" class="btn btn-primary">Beratung anfragen →</a>
+        <a href="#leistungen" class="btn btn-ghost">Leistungen ansehen</a>
+      </div>
+      <div class="trust">
+        <div><b>AVM</b>Premium Partner</div>
+        <div><b>1</b>fester Ansprechpartner</div>
+        <div><b>Allgäu</b>Service direkt vor Ort</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="leistungen">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Leistungen</div>
+      <h2>Alles aus einer Hand</h2>
+      <p class="intro">Für Privathaushalte, Handwerksbetriebe und Büros. Ich kümmere mich um die Technik, damit Sie sich um Ihr Geschäft kümmern können.</p>
+    </div>
+    <div class="grid">
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg></div>
+        <h3>Netzwerke & WLAN</h3>
+        <p>Stabile Netzwerke für Haus, Büro und Werkstatt, sauber geplant und dokumentiert.</p>
+        <ul><li>Netzwerkverkabelung & Patchfelder</li><li>WLAN-Ausleuchtung & Mesh</li><li>Switches, VLAN & Gastnetz</li></ul>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div>
+        <h3>Telefonanlagen</h3>
+        <p>Moderne IP-Telefonie für kleine und mittlere Betriebe, eingerichtet und gewartet.</p>
+        <ul><li>Einrichtung & Umstellung auf IP</li><li>Fax-to-Mail & Anrufbeantworter</li><li>Wartung & Fernsupport</li></ul>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div>
+        <h3>Internet: DSL & Glasfaser</h3>
+        <p>Vom Anschluss bis zum letzten Endgerät. Ich sorge dafür, dass schnelles Internet auch ankommt.</p>
+        <ul><li>Glasfaser-Inbetriebnahme</li><li>DSL & Router-Einrichtung</li><li>Fehlersuche bei Störungen</li></ul>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg></div>
+        <h3>Automatisierung & Elektrotechnik</h3>
+        <p>Steuerungen, die zuverlässig laufen, und Anlagen, die sich aus der Ferne betreuen lassen.</p>
+        <ul><li>SPS-Programmierung mit Beckhoff</li><li>Mess-, Steuer- & Regeltechnik</li><li>Sicherer Fernzugriff per VPN</li></ul>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3>PCs: Reparatur & Neukauf</h3>
+        <p>Ihr Rechner streikt oder ist in die Jahre gekommen? Ich repariere ihn oder stelle Ihnen einen neuen PC fertig eingerichtet hin.</p>
+        <ul><li>Fehlerdiagnose & Reparatur</li><li>Neue PCs & Notebooks inkl. Einrichtung</li><li>Datenübernahme vom alten Gerät</li></ul>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>Smart Home & Gebäudeautomation</h3>
+        <p>Intelligente Haussteuerung, die zuverlässig im Hintergrund arbeitet.</p>
+        <ul><li>Home Assistant</li><li>Beckhoff-Steuerungen</li><li>Matter over Thread</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="smarthome">
+  <div class="wrap sh">
+    <div class="reveal">
+      <div class="kicker">Smart Home & Gebäudeautomation</div>
+      <h2>Ein Haus, das mitdenkt.</h2>
+      <p class="intro">Licht, Heizung, Beschattung, Energie und Sicherheit: Ich verbinde professionelle Gebäudeautomation mit der Flexibilität von Home Assistant. So entsteht eine Steuerung, die robust läuft und sich trotzdem bequem per App und Sprache bedienen lässt.</p>
+      <ul class="checks">
+        <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Herstellerunabhängig, lokal und ohne Cloud-Zwang</li>
+        <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Geräte verschiedener Hersteller in einer Oberfläche</li>
+        <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Erweiterbar, dokumentiert und wartbar</li>
+      </ul>
+    </div>
+    <div class="tech reveal">
+      <div class="tile wide"><b>Home Assistant</b><span>Zentrale Plattform für Visualisierung, Automationen, Energie-Dashboard und Sprachsteuerung.</span></div>
+      <div class="tile"><b>Beckhoff</b><span>Industrietaugliche SPS-Steuerung für Licht, Heizung und Beschattung, gekoppelt mit Home Assistant.</span></div>
+      <div class="tile"><b>Matter over Thread</b><span>Der neue Standard: herstellerübergreifend, schnell und energiesparend.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="avm" class="partner">
+  <div class="wrap partner-box">
+    <div class="reveal">
+      <div class="kicker">Zertifizierter Partner</div>
+      <h2>AVM Premium Partner für FRITZ!</h2>
+      <p class="intro">Als AVM Premium Partner kenne ich die FRITZ!-Produkte im Detail, von FRITZ!Box über Repeater bis zur Telefonie. Sie bekommen eine Lösung, die passt, und Unterstützung, wenn es darauf ankommt.</p>
+      <ul class="checks">
+        <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Beratung zur passenden FRITZ!Box für DSL, Glasfaser oder Kabel</li>
+        <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Mesh-WLAN für jedes Stockwerk und jeden Winkel</li>
+        <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Telefonie, Fax-to-Mail und Smart Home mit FRITZ!</li>
+        <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Lieferung, Einrichtung und Service aus einer Hand</li>
+      </ul>
+    </div>
+    <div class="badge reveal">
+      <div class="avm-logo"><img src="avm-partner.png" alt="AVM Premium Partner"></div>
+      <h3>Geprüftes Know-how</h3>
+      <p>Premium Partner werden von AVM geschult und ausgewählt. Das bedeutet für Sie: kompetente Beratung und fachgerechte Installation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="ablauf">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">So arbeite ich</div>
+      <h2>Klarer Ablauf, faire Absprachen</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><h4>Anfrage</h4><p>Sie schildern kurz Ihr Anliegen per Telefon oder E-Mail.</p></div>
+      <div class="step reveal"><h4>Beratung vor Ort</h4><p>Ich schaue mir die Situation an und schlage eine passende Lösung vor.</p></div>
+      <div class="step reveal"><h4>Umsetzung</h4><p>Saubere Installation, Einrichtung und Test, termingerecht.</p></div>
+      <div class="step reveal"><h4>Betreuung</h4><p>Auch danach bin ich für Sie da, vor Ort oder per Fernwartung.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" class="contact">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Kontakt</div>
+      <h2>Lassen Sie uns über Ihr Projekt sprechen.</h2>
+      <p class="intro">Rufen Sie an oder schreiben Sie mir. Ich melde mich in der Regel am selben Werktag zurück. Ich bin für Sie da in Altusried, Kempten, Dietmannsried, Wiggensbach, Buchenberg, Bad Grönenbach, Legau und im ganzen Ober- und Unterallgäu.</p>
+    </div>
+    <div class="cinfo reveal">
+      <a class="citem" href="tel:+491739987127"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><div><small>Telefon</small><span>0173 / 998 71 27</span></div></a>
+      <a class="citem" href="mailto:autev@christophvetter.de"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><div><small>E-Mail</small><span>autev@christophvetter.de</span></div></a>
+      <div class="citem"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div><small>Anschrift</small><span>Unterräthen 1, 87452 Altusried</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="impressum" class="legal">
+  <div class="wrap">
+    <h2>Impressum</h2>
+    <p>Angaben gemäß § 5 DDG</p>
+    <h3>Anbieter</h3>
+    <p>AUTEV – Automatisierung, EDV, Elektrotechnik<br>Inhaber: Christoph Vetter<br>Unterräthen 1<br>87452 Altusried</p>
+    <h3>Kontakt</h3>
+    <p>Telefon: 0173 / 998 71 27<br>Fax: 08373 / 987 91 35<br>E-Mail: autev@christophvetter.de</p>
+    <h3>Umsatzsteuer</h3>
+    <p>Kleinunternehmer gemäß § 19 UStG, daher kein Ausweis von Umsatzsteuer.</p>
+    <h3>Verbraucherstreitbeilegung</h3>
+    <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+    <h2 id="datenschutz" style="margin-top:60px">Datenschutzerklärung</h2>
+    <h3>Verantwortlicher</h3>
+    <p>Christoph Vetter, AUTEV, Unterräthen 1, 87452 Altusried, autev@christophvetter.de</p>
+    <h3>Hosting</h3>
+    <p>Diese Website wird über GitHub Pages der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA, gehostet. Beim Aufruf der Seite verarbeitet der Hoster technisch notwendige Daten wie IP-Adresse, Datum, Uhrzeit und aufgerufene Seite, um die Website auszuliefern und ihre Sicherheit zu gewährleisten (Art. 6 Abs. 1 lit. f DSGVO). Die Datenübermittlung in die USA erfolgt auf Grundlage der Standardvertragsklauseln der EU-Kommission bzw. des EU-US Data Privacy Framework.</p>
+    <h3>Keine Cookies, kein Tracking</h3>
+    <p>Diese Website setzt keine Cookies, verwendet keine Analyse- oder Tracking-Werkzeuge und lädt keine externen Schriftarten oder Inhalte.</p>
+    <h3>Kontaktaufnahme</h3>
+    <p>Wenn Sie per E-Mail oder Telefon Kontakt aufnehmen, werden Ihre Angaben zur Bearbeitung der Anfrage verarbeitet (Art. 6 Abs. 1 lit. b DSGVO) und gelöscht, sobald sie nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen.</p>
+    <h3>Ihre Rechte</h3>
+    <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde, in Bayern beim Bayerischen Landesamt für Datenschutzaufsicht.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="y">2026</span> AUTEV · Christoph Vetter · Altusried</div>
+    <div><a href="#impressum">Impressum</a> &nbsp;·&nbsp; <a href="#datenschutz">Datenschutz</a></div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+const h=document.querySelector('header');
+const onScroll=()=>h.classList.toggle('solid',window.scrollY>40);
+onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.links').classList.remove('open')));
+if('IntersectionObserver' in window){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'))}
+</script>
+</body>
+</html>
